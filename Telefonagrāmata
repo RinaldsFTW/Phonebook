@@ -1,0 +1,19 @@
+contacts = []
+while(True):
+  response = input('N-add new, E-exit: ')
+  if response == 'N':
+    
+    name = input('Enter name: ')
+    surname = input('Enter     surname: ')
+    number = input('Enter number: ')
+    email = input('Enter email: ')
+
+contact = {
+  'name': name,
+  'surname': sutname,
+  'number': number,
+  'email': email
+}
+
+contacts.append(contact)
+print(contacts)
